@@ -1,0 +1,65 @@
+@import url(../../reset.css);
+
+@font-face {
+    font-family: "abduction";
+    src: url("https://raw.githubusercontent.com/FreyrVL/assets/master/fonts/Abduction2002.ttf");
+}
+
+@font-face {
+    font-family: "anonymousPro";
+    src: url("https://raw.githubusercontent.com/FreyrVL/assets/master/fonts/AnonymousPro-Regular.ttf");
+
+}
+
+body {
+    background-color: #EEE;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: grid;
+    font-family: 'Courier New', Courier, monospace;
+    height: 25rem;
+    width: 35rem;
+    margin: 10rem auto 0 auto;
+    place-content: center;
+    position: relative;
+    text-align: center;
+
+    h1 {
+        font-size: 2.6rem;
+        font-family: 'abduction', sans-serif;
+        margin-bottom: 1rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+        margin-bottom: 2rem;
+        line-height: 1.4;
+    }
+
+    a {
+        font-size: 1.2rem;
+    }
+
+    h2,
+    a {
+        font-family: 'anonymousPro', sans-serif;
+    }
+
+    img {
+        height: 10rem;
+        border-radius: 100%;
+        border: 0.3rem solid #6133a7;
+        padding: 0.2rem;
+        position: absolute;
+
+        top: -20%;
+        left: 50%;
+
+        transform: translateX(-50%);
+    }
+
+}
